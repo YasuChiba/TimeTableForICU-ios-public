@@ -1,0 +1,6 @@
+framework module Instructions {
+  umbrella header "Instructions-iOS10.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,46 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.2.0)
+  - DropDown (2)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Hue (2.0.1)
+  - Material (2.4.6):
+    - Material/Core (= 2.4.6)
+  - Material/Core (2.4.6)
+  - PopupDialog (0.5.3)
+  - Presentr (1.1.0)
+  - SlideMenuControllerSwift (3.0.1)
+  - SnapKit (3.0.2)
+  - TJExtensions (0.2.10)
+  - TTGSnackbar (1.4.1)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.2.0)
+  - DropDown
+  - FMDB
+  - Hue
+  - Material (~> 2.0)
+  - PopupDialog (~> 0.5)
+  - Presentr
+  - SlideMenuControllerSwift
+  - SnapKit (~> 3.0.2)
+  - TJExtensions (~> 0.2)
+  - TTGSnackbar
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: d11a4c12c6aaf704b8a3f56d179198c99f3e41e6
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Hue: 354caec055fdc9d38b5ef33ca2e7224721843baf
+  Material: 43bd91d61e86ae2b6d6574e28fcb1ed48ff813cb
+  PopupDialog: 533dd564f8781633375505b9fbd406f8f146ccc9
+  Presentr: e73439be1cba3ad0651b18c58d77238bbacce59c
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  TJExtensions: cb9fa30f33ce483be1324674fc116e0ce2c83037
+  TTGSnackbar: 466f11eb59fb7e0f7af7f05d9165abce72adf5cc
+
+PODFILE CHECKSUM: af1840308092149e7884d553898a2eb87feeab36
+
+COCOAPODS: 1.1.1

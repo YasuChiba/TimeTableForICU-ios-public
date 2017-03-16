@@ -1,0 +1,6 @@
+framework module Presentr {
+  umbrella header "Presentr-iOS9.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SSImageBrowser {
+  umbrella header "SSImageBrowser-iOS9.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

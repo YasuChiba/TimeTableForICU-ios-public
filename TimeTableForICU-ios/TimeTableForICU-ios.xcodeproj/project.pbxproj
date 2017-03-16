@@ -1,0 +1,1229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C041BD31DFF0530001CB15C /* TableColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C041BD21DFF0530001CB15C /* TableColumnView.xib */; };
+		3C041BD51DFF0539001CB15C /* TableColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C041BD41DFF0539001CB15C /* TableColumnView.swift */; };
+		3C0900401E1A238900D0CB83 /* AddDataTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09003F1E1A238900D0CB83 /* AddDataTestViewController.swift */; };
+		3C0900421E1A239600D0CB83 /* AddDataTestViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0900411E1A239600D0CB83 /* AddDataTestViewController.storyboard */; };
+		3C0900441E1A254800D0CB83 /* AddDataTestTableCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0900431E1A254800D0CB83 /* AddDataTestTableCustomCell.swift */; };
+		3C0900461E1A320400D0CB83 /* AddDataTestTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0900451E1A320400D0CB83 /* AddDataTestTableController.swift */; };
+		3C0900481E1A3E0C00D0CB83 /* AddDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0900471E1A3E0C00D0CB83 /* AddDataEntity.swift */; };
+		3C0BA8521E3CD65800A271E0 /* ScheduleListTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BA8511E3CD65800A271E0 /* ScheduleListTableController.swift */; };
+		3C0C3A771E7B09E700902DCE /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C3A761E7B09E700902DCE /* DatabaseManager.swift */; };
+		3C0C3A791E7B0A5B00902DCE /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C3A781E7B0A5B00902DCE /* extensions.swift */; };
+		3C0C3A831E7B0BEC00902DCE /* SyllabusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C3A821E7B0BEC00902DCE /* SyllabusEntity.swift */; };
+		3C0C3A851E7B0CD900902DCE /* userPolicy.html in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C3A841E7B0CD900902DCE /* userPolicy.html */; };
+		3C0DA76F1E24717C00DCAB2B /* LeftSideMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0DA76E1E24717C00DCAB2B /* LeftSideMenuViewController.storyboard */; };
+		3C0DA7731E24A2FC00DCAB2B /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DA7721E24A2FC00DCAB2B /* ExSlideMenuController.swift */; };
+		3C0DA7761E24A91500DCAB2B /* LeftSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DA7751E24A91500DCAB2B /* LeftSideMenuViewController.swift */; };
+		3C1F2D461E21D5F2001BDEA6 /* ModifyDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F2D441E21D5F2001BDEA6 /* ModifyDataViewController.swift */; };
+		3C1F2D471E21D5F2001BDEA6 /* ModifyDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F2D451E21D5F2001BDEA6 /* ModifyDataViewController.xib */; };
+		3C24DCEA1E78C82F007FD7B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C24DCE91E78C82F007FD7B7 /* Images.xcassets */; };
+		3C27A5531E1E811D00E8F45B /* ClassInfoAddDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C27A5521E1E811D00E8F45B /* ClassInfoAddDataViewController.xib */; };
+		3C27A5551E1EA93900E8F45B /* ClassInfoAddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C27A5541E1EA93900E8F45B /* ClassInfoAddDataViewController.swift */; };
+		3C389BB71E00DE780082418B /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C389BB61E00DE780082418B /* CustomTableView.swift */; };
+		3C389BB91E00DE840082418B /* CustomTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C389BB81E00DE840082418B /* CustomTableView.xib */; };
+		3C3AF04C1DC5A3A800C7C6F3 /* AddDataViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AF04B1DC5A3A800C7C6F3 /* AddDataViewController.storyboard */; };
+		3C4352D01DC5876300ADC5B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4352CF1DC5876300ADC5B5 /* AppDelegate.swift */; };
+		3C4352D21DC5876300ADC5B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4352D11DC5876300ADC5B5 /* ViewController.swift */; };
+		3C4352D51DC5876300ADC5B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4352D31DC5876300ADC5B5 /* Main.storyboard */; };
+		3C4352D71DC5876300ADC5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4352D61DC5876300ADC5B5 /* Assets.xcassets */; };
+		3C4352DA1DC5876300ADC5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4352D81DC5876300ADC5B5 /* LaunchScreen.storyboard */; };
+		3C4352E51DC5876400ADC5B5 /* TimeTableForICU_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4352E41DC5876400ADC5B5 /* TimeTableForICU_iosTests.swift */; };
+		3C4352F01DC5876400ADC5B5 /* TimeTableForICU_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4352EF1DC5876400ADC5B5 /* TimeTableForICU_iosUITests.swift */; };
+		3C4E6B671E128FED0088ED86 /* ColorChooserViewCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E6B651E128FED0088ED86 /* ColorChooserViewCon.swift */; };
+		3C4E6B681E128FED0088ED86 /* ColorChooserViewCon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4E6B661E128FED0088ED86 /* ColorChooserViewCon.xib */; };
+		3C5BE8451E0E63640046C522 /* AddDataHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BE8431E0E63640046C522 /* AddDataHeaderView.swift */; };
+		3C5BE8461E0E63640046C522 /* AddDataHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BE8441E0E63640046C522 /* AddDataHeaderView.xib */; };
+		3C5BE84A1E0E70090046C522 /* AddDataFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BE8491E0E70090046C522 /* AddDataFooterView.swift */; };
+		3C5D24771E1B5DF0004C1A78 /* DataBaseDataTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D24761E1B5DF0004C1A78 /* DataBaseDataTableManager.swift */; };
+		3C5D247B1E1B6197004C1A78 /* DataBaseScheduleTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D247A1E1B6197004C1A78 /* DataBaseScheduleTableManager.swift */; };
+		3C5D247D1E1B647D004C1A78 /* DB_for_timetable_14.db in Resources */ = {isa = PBXBuildFile; fileRef = 3C5D247C1E1B647D004C1A78 /* DB_for_timetable_14.db */; };
+		3C5D247F1E1B658A004C1A78 /* DataTableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D247E1E1B658A004C1A78 /* DataTableEntity.swift */; };
+		3C611A491E70027E0008D677 /* DB_for_timetable_15.db in Resources */ = {isa = PBXBuildFile; fileRef = 3C611A481E70027E0008D677 /* DB_for_timetable_15.db */; };
+		3C6565241DCCC6C100878987 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6565231DCCC6C100878987 /* Constants.swift */; };
+		3C7531401E7AC75A00447F5D /* ViewControllerExtensionForTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75313F1E7AC75A00447F5D /* ViewControllerExtensionForTutorial.swift */; };
+		3C78412B1DE7DE1E0020EF89 /* CollectionCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78412A1DE7DE1E0020EF89 /* CollectionCustomCell.swift */; };
+		3C78412D1DE7DFDF0020EF89 /* DateCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78412C1DE7DFDF0020EF89 /* DateCollectionController.swift */; };
+		3C7AB4761E69767D0045AC1C /* ScheduleListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AB4751E69767D0045AC1C /* ScheduleListTableCell.swift */; };
+		3C7DF2251E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7DF2231E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.swift */; };
+		3C7DF2261E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C7DF2241E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.xib */; };
+		3C82CB3C1E2B3F2100CBD0B7 /* LeftSideMenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C82CB3B1E2B3F2100CBD0B7 /* LeftSideMenuTableCell.swift */; };
+		3C82CB3E1E2B3F9600CBD0B7 /* LeftSideMenuTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C82CB3D1E2B3F9600CBD0B7 /* LeftSideMenuTableController.swift */; };
+		3C82CB411E2B9D9E00CBD0B7 /* ScheduleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C82CB401E2B9D9E00CBD0B7 /* ScheduleListViewController.swift */; };
+		3C82CB431E2B9DB100CBD0B7 /* ScheduleListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C82CB421E2B9DB100CBD0B7 /* ScheduleListViewController.storyboard */; };
+		3C8398EF1E176A250061838B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8398EE1E176A250061838B /* CircleView.swift */; };
+		3C9692F11E6ACAA800DE58FF /* UserPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9692F01E6ACAA800DE58FF /* UserPolicyViewController.swift */; };
+		3C9692F31E6ACABE00DE58FF /* UserPolicyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9692F21E6ACABE00DE58FF /* UserPolicyViewController.storyboard */; };
+		3C99C2B71DC58A3A00DA1D11 /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99C2B51DC58A3A00DA1D11 /* AddDataViewController.swift */; };
+		3C99DD251DFA4A8800792367 /* PeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99DD241DFA4A8800792367 /* PeriodView.swift */; };
+		3C99DD271DFA4AA300792367 /* PeriodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C99DD261DFA4AA300792367 /* PeriodView.xib */; };
+		3CA12E221DEFB69B00E6BA0B /* TableDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA12E211DEFB69B00E6BA0B /* TableDataEntity.swift */; };
+		3CAB2EDD1DF1071100EC7562 /* DataBaseManagerUpperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB2EDC1DF1071000EC7562 /* DataBaseManagerUpperClass.swift */; };
+		3CAB2EDF1DF10F8300EC7562 /* DataBaseTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB2EDE1DF10F8300EC7562 /* DataBaseTableManager.swift */; };
+		3CAB2EE11DF119B300EC7562 /* DataBaseSyllabusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB2EE01DF119B300EC7562 /* DataBaseSyllabusManager.swift */; };
+		3CAB2EE31DF122C000EC7562 /* ProtocolForEachDBm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB2EE21DF122C000EC7562 /* ProtocolForEachDBm.swift */; };
+		3CAFA3531E1A8AE8008A1C3C /* ColorChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAFA3521E1A8AE8008A1C3C /* ColorChooserView.swift */; };
+		3CAFA3551E1A8AF3008A1C3C /* ColorChooserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFA3541E1A8AF3008A1C3C /* ColorChooserView.xib */; };
+		3CB7BCB21E2BADEF0099DC46 /* GAUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7BCB11E2BADEF0099DC46 /* GAUtility.swift */; };
+		3CBF5CB91E2063AD000AE588 /* CustomDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF5CB81E2063AD000AE588 /* CustomDateFormatter.swift */; };
+		3CC7663C1E2523A1004A0975 /* ClassInfoViewControllerCameraExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7663B1E2523A1004A0975 /* ClassInfoViewControllerCameraExtension.swift */; };
+		3CCA5D6A1DF53DD90097AB8B /* ClassInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA5D691DF53DD90097AB8B /* ClassInfoViewController.swift */; };
+		3CCA5D6C1DF53DF30097AB8B /* ClassInfoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA5D6B1DF53DF30097AB8B /* ClassInfoViewController.storyboard */; };
+		3CD0CF1F1E1BD54D000D6EAF /* ClassInfoTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0CF1E1E1BD54D000D6EAF /* ClassInfoTableHeaderView.swift */; };
+		3CD0CF211E1BD567000D6EAF /* ClassInfoTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD0CF201E1BD567000D6EAF /* ClassInfoTableHeaderView.xib */; };
+		3CD0CF231E1BDE57000D6EAF /* ScheduleDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0CF221E1BDE57000D6EAF /* ScheduleDataEntity.swift */; };
+		3CD6A6391E25F5FA00888EEF /* CameraAndFileIOUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6A6381E25F5FA00888EEF /* CameraAndFileIOUtils.swift */; };
+		3CD6E8921E1B28200086C804 /* ClassInfoTableScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6E8911E1B28200086C804 /* ClassInfoTableScheduleCell.swift */; };
+		3CD6E8941E1B3D7B0086C804 /* ClassInfoTableMemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6E8931E1B3D7A0086C804 /* ClassInfoTableMemoCell.swift */; };
+		3CD6E8961E1B3D900086C804 /* ClassInfoTableScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD6E8951E1B3D900086C804 /* ClassInfoTableScheduleCell.xib */; };
+		3CD6E8981E1B3DA20086C804 /* ClassInfoTableMemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD6E8971E1B3DA20086C804 /* ClassInfoTableMemoCell.xib */; };
+		3CD6E89A1E1B41890086C804 /* ClassInfoTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6E8991E1B41890086C804 /* ClassInfoTableController.swift */; };
+		3CD9A4D31E0CFA1A0015645A /* DataBaseTableListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD9A4D21E0CFA1A0015645A /* DataBaseTableListManager.swift */; };
+		3CD9A4D51E0CFD740015645A /* TableListDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD9A4D41E0CFD740015645A /* TableListDataEntity.swift */; };
+		3CD9A4D71E0D4E290015645A /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD9A4D61E0D4E290015645A /* UserDefaultManager.swift */; };
+		3CDC62491E02F99A00924A15 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC62481E02F99A00924A15 /* Enums.swift */; };
+		3CDF52BF1DEC8034005FAAB7 /* DevideScheduleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF52BE1DEC8034005FAAB7 /* DevideScheduleString.swift */; };
+		3CE0C1D01E178DA300723656 /* TableSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0C1CF1E178DA300723656 /* TableSettingsViewController.swift */; };
+		3CE0C1D21E178DB400723656 /* TableSettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE0C1D11E178DB400723656 /* TableSettingsViewController.storyboard */; };
+		3CE0C1D41E17944700723656 /* TableSettingsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0C1D31E17944700723656 /* TableSettingsTableController.swift */; };
+		3CE0C1D61E1795E000723656 /* TableCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0C1D51E1795E000723656 /* TableCustomCell.swift */; };
+		3CE0C1D91E17F6A500723656 /* CreateNewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0C1D71E17F6A500723656 /* CreateNewTableViewController.swift */; };
+		3CE0C1DA1E17F6A500723656 /* CreateNewTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE0C1D81E17F6A500723656 /* CreateNewTableViewController.xib */; };
+		3CEC6AAC1E7AECFE00F961E2 /* AddDataTestViewControllerExtensionForTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC6AAB1E7AECFE00F961E2 /* AddDataTestViewControllerExtensionForTutorial.swift */; };
+		3CEC6AAF1E7AF76800F961E2 /* LeftSideMenuViewControllerExtensionForTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC6AAE1E7AF76800F961E2 /* LeftSideMenuViewControllerExtensionForTutorial.swift */; };
+		3CF549501DFDA543003DBF78 /* TopRightBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5494F1DFDA543003DBF78 /* TopRightBorderButton.swift */; };
+		3CF549521DFDA567003DBF78 /* TopRightBorderButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF549511DFDA567003DBF78 /* TopRightBorderButton.xib */; };
+		3CF549541DFDAAE5003DBF78 /* TopRightBorderLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF549531DFDAAE5003DBF78 /* TopRightBorderLabel.xib */; };
+		3CF549561DFDAB32003DBF78 /* TopRightBorderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF549551DFDAB32003DBF78 /* TopRightBorderLabel.swift */; };
+		5AA8C6211604802DC0CC222A /* Pods_TimeTableForICU_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39416804A74C4C5971C42C45 /* Pods_TimeTableForICU_ios.framework */; };
+		A466B4086846DC18D10F1CF7 /* Pods_TimeTableForICU_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345AE6A3EA26FDA3502421E9 /* Pods_TimeTableForICU_iosUITests.framework */; };
+		E3CEAEF480DE6586F653CFC0 /* Pods_TimeTableForICU_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29DAE24A46616DADE7E20EA /* Pods_TimeTableForICU_iosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C4352E11DC5876400ADC5B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4352C41DC5876300ADC5B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4352CB1DC5876300ADC5B5;
+			remoteInfo = "TimeTableForICU-ios";
+		};
+		3C4352EC1DC5876400ADC5B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4352C41DC5876300ADC5B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4352CB1DC5876300ADC5B5;
+			remoteInfo = "TimeTableForICU-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2602EE1DB36D1BB1FA068484 /* Pods-TimeTableForICU-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTableForICU-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeTableForICU-iosUITests/Pods-TimeTableForICU-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		345AE6A3EA26FDA3502421E9 /* Pods_TimeTableForICU_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeTableForICU_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39416804A74C4C5971C42C45 /* Pods_TimeTableForICU_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeTableForICU_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C041BD21DFF0530001CB15C /* TableColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableColumnView.xib; sourceTree = "<group>"; };
+		3C041BD41DFF0539001CB15C /* TableColumnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableColumnView.swift; sourceTree = "<group>"; };
+		3C09003F1E1A238900D0CB83 /* AddDataTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataTestViewController.swift; sourceTree = "<group>"; };
+		3C0900411E1A239600D0CB83 /* AddDataTestViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddDataTestViewController.storyboard; sourceTree = "<group>"; };
+		3C0900431E1A254800D0CB83 /* AddDataTestTableCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataTestTableCustomCell.swift; sourceTree = "<group>"; };
+		3C0900451E1A320400D0CB83 /* AddDataTestTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataTestTableController.swift; sourceTree = "<group>"; };
+		3C0900471E1A3E0C00D0CB83 /* AddDataEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataEntity.swift; sourceTree = "<group>"; };
+		3C0BA8511E3CD65800A271E0 /* ScheduleListTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleListTableController.swift; sourceTree = "<group>"; };
+		3C0C3A761E7B09E700902DCE /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		3C0C3A781E7B0A5B00902DCE /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		3C0C3A821E7B0BEC00902DCE /* SyllabusEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyllabusEntity.swift; sourceTree = "<group>"; };
+		3C0C3A841E7B0CD900902DCE /* userPolicy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = userPolicy.html; path = "TimeTableForICU-ios/userPolicy.html"; sourceTree = "<group>"; };
+		3C0DA76E1E24717C00DCAB2B /* LeftSideMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LeftSideMenuViewController.storyboard; sourceTree = "<group>"; };
+		3C0DA7721E24A2FC00DCAB2B /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		3C0DA7751E24A91500DCAB2B /* LeftSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideMenuViewController.swift; sourceTree = "<group>"; };
+		3C1F2D441E21D5F2001BDEA6 /* ModifyDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyDataViewController.swift; sourceTree = "<group>"; };
+		3C1F2D451E21D5F2001BDEA6 /* ModifyDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModifyDataViewController.xib; sourceTree = "<group>"; };
+		3C24DCE91E78C82F007FD7B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C24DCEB1E78DFEB007FD7B7 /* TimeTableForICU-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TimeTableForICU-ios.entitlements"; sourceTree = "<group>"; };
+		3C27A5521E1E811D00E8F45B /* ClassInfoAddDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassInfoAddDataViewController.xib; sourceTree = "<group>"; };
+		3C27A5541E1EA93900E8F45B /* ClassInfoAddDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoAddDataViewController.swift; sourceTree = "<group>"; };
+		3C389BB61E00DE780082418B /* CustomTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
+		3C389BB81E00DE840082418B /* CustomTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableView.xib; sourceTree = "<group>"; };
+		3C3AF04B1DC5A3A800C7C6F3 /* AddDataViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddDataViewController.storyboard; sourceTree = "<group>"; };
+		3C4352CC1DC5876300ADC5B5 /* TimeTableForICU-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeTableForICU-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4352CF1DC5876300ADC5B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C4352D11DC5876300ADC5B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C4352D41DC5876300ADC5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4352D61DC5876300ADC5B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4352D91DC5876300ADC5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C4352DB1DC5876300ADC5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4352E01DC5876400ADC5B5 /* TimeTableForICU-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeTableForICU-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4352E41DC5876400ADC5B5 /* TimeTableForICU_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableForICU_iosTests.swift; sourceTree = "<group>"; };
+		3C4352E61DC5876400ADC5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4352EB1DC5876400ADC5B5 /* TimeTableForICU-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeTableForICU-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4352EF1DC5876400ADC5B5 /* TimeTableForICU_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableForICU_iosUITests.swift; sourceTree = "<group>"; };
+		3C4352F11DC5876400ADC5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4E6B651E128FED0088ED86 /* ColorChooserViewCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorChooserViewCon.swift; sourceTree = "<group>"; };
+		3C4E6B661E128FED0088ED86 /* ColorChooserViewCon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorChooserViewCon.xib; sourceTree = "<group>"; };
+		3C5BE8431E0E63640046C522 /* AddDataHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataHeaderView.swift; sourceTree = "<group>"; };
+		3C5BE8441E0E63640046C522 /* AddDataHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDataHeaderView.xib; sourceTree = "<group>"; };
+		3C5BE8491E0E70090046C522 /* AddDataFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataFooterView.swift; sourceTree = "<group>"; };
+		3C5D24761E1B5DF0004C1A78 /* DataBaseDataTableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseDataTableManager.swift; sourceTree = "<group>"; };
+		3C5D247A1E1B6197004C1A78 /* DataBaseScheduleTableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseScheduleTableManager.swift; sourceTree = "<group>"; };
+		3C5D247C1E1B647D004C1A78 /* DB_for_timetable_14.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = DB_for_timetable_14.db; sourceTree = "<group>"; };
+		3C5D247E1E1B658A004C1A78 /* DataTableEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableEntity.swift; sourceTree = "<group>"; };
+		3C611A481E70027E0008D677 /* DB_for_timetable_15.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = DB_for_timetable_15.db; sourceTree = "<group>"; };
+		3C6565231DCCC6C100878987 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3C75313F1E7AC75A00447F5D /* ViewControllerExtensionForTutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensionForTutorial.swift; sourceTree = "<group>"; };
+		3C78412A1DE7DE1E0020EF89 /* CollectionCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCustomCell.swift; sourceTree = "<group>"; };
+		3C78412C1DE7DFDF0020EF89 /* DateCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCollectionController.swift; sourceTree = "<group>"; };
+		3C7AB4751E69767D0045AC1C /* ScheduleListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleListTableCell.swift; sourceTree = "<group>"; };
+		3C7DF2231E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoAddScheduleViewController.swift; sourceTree = "<group>"; };
+		3C7DF2241E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassInfoAddScheduleViewController.xib; sourceTree = "<group>"; };
+		3C82CB3B1E2B3F2100CBD0B7 /* LeftSideMenuTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideMenuTableCell.swift; sourceTree = "<group>"; };
+		3C82CB3D1E2B3F9600CBD0B7 /* LeftSideMenuTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideMenuTableController.swift; sourceTree = "<group>"; };
+		3C82CB401E2B9D9E00CBD0B7 /* ScheduleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleListViewController.swift; sourceTree = "<group>"; };
+		3C82CB421E2B9DB100CBD0B7 /* ScheduleListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScheduleListViewController.storyboard; sourceTree = "<group>"; };
+		3C8398EE1E176A250061838B /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		3C9692F01E6ACAA800DE58FF /* UserPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPolicyViewController.swift; sourceTree = "<group>"; };
+		3C9692F21E6ACABE00DE58FF /* UserPolicyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserPolicyViewController.storyboard; sourceTree = "<group>"; };
+		3C99C2B51DC58A3A00DA1D11 /* AddDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
+		3C99DD241DFA4A8800792367 /* PeriodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodView.swift; sourceTree = "<group>"; };
+		3C99DD261DFA4AA300792367 /* PeriodView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriodView.xib; sourceTree = "<group>"; };
+		3CA12E211DEFB69B00E6BA0B /* TableDataEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataEntity.swift; sourceTree = "<group>"; };
+		3CAB2EDC1DF1071000EC7562 /* DataBaseManagerUpperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManagerUpperClass.swift; sourceTree = "<group>"; };
+		3CAB2EDE1DF10F8300EC7562 /* DataBaseTableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseTableManager.swift; sourceTree = "<group>"; };
+		3CAB2EE01DF119B300EC7562 /* DataBaseSyllabusManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseSyllabusManager.swift; sourceTree = "<group>"; };
+		3CAB2EE21DF122C000EC7562 /* ProtocolForEachDBm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolForEachDBm.swift; sourceTree = "<group>"; };
+		3CAFA3521E1A8AE8008A1C3C /* ColorChooserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorChooserView.swift; sourceTree = "<group>"; };
+		3CAFA3541E1A8AF3008A1C3C /* ColorChooserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorChooserView.xib; sourceTree = "<group>"; };
+		3CB7BCB01E2BAC250099DC46 /* TimeTableForICU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeTableForICU-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CB7BCB11E2BADEF0099DC46 /* GAUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAUtility.swift; sourceTree = "<group>"; };
+		3CBF5CB81E2063AD000AE588 /* CustomDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatter.swift; sourceTree = "<group>"; };
+		3CC7663B1E2523A1004A0975 /* ClassInfoViewControllerCameraExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoViewControllerCameraExtension.swift; sourceTree = "<group>"; };
+		3CCA5D691DF53DD90097AB8B /* ClassInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoViewController.swift; sourceTree = "<group>"; };
+		3CCA5D6B1DF53DF30097AB8B /* ClassInfoViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ClassInfoViewController.storyboard; sourceTree = "<group>"; };
+		3CD0CF1E1E1BD54D000D6EAF /* ClassInfoTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoTableHeaderView.swift; sourceTree = "<group>"; };
+		3CD0CF201E1BD567000D6EAF /* ClassInfoTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassInfoTableHeaderView.xib; sourceTree = "<group>"; };
+		3CD0CF221E1BDE57000D6EAF /* ScheduleDataEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDataEntity.swift; sourceTree = "<group>"; };
+		3CD6A6381E25F5FA00888EEF /* CameraAndFileIOUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraAndFileIOUtils.swift; sourceTree = "<group>"; };
+		3CD6E8911E1B28200086C804 /* ClassInfoTableScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoTableScheduleCell.swift; sourceTree = "<group>"; };
+		3CD6E8931E1B3D7A0086C804 /* ClassInfoTableMemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoTableMemoCell.swift; sourceTree = "<group>"; };
+		3CD6E8951E1B3D900086C804 /* ClassInfoTableScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassInfoTableScheduleCell.xib; sourceTree = "<group>"; };
+		3CD6E8971E1B3DA20086C804 /* ClassInfoTableMemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassInfoTableMemoCell.xib; sourceTree = "<group>"; };
+		3CD6E8991E1B41890086C804 /* ClassInfoTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassInfoTableController.swift; sourceTree = "<group>"; };
+		3CD9A4D21E0CFA1A0015645A /* DataBaseTableListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseTableListManager.swift; sourceTree = "<group>"; };
+		3CD9A4D41E0CFD740015645A /* TableListDataEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableListDataEntity.swift; sourceTree = "<group>"; };
+		3CD9A4D61E0D4E290015645A /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		3CDC62481E02F99A00924A15 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		3CDF52BE1DEC8034005FAAB7 /* DevideScheduleString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevideScheduleString.swift; sourceTree = "<group>"; };
+		3CE0C1CF1E178DA300723656 /* TableSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSettingsViewController.swift; sourceTree = "<group>"; };
+		3CE0C1D11E178DB400723656 /* TableSettingsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TableSettingsViewController.storyboard; sourceTree = "<group>"; };
+		3CE0C1D31E17944700723656 /* TableSettingsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSettingsTableController.swift; sourceTree = "<group>"; };
+		3CE0C1D51E1795E000723656 /* TableCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCustomCell.swift; sourceTree = "<group>"; };
+		3CE0C1D71E17F6A500723656 /* CreateNewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewTableViewController.swift; sourceTree = "<group>"; };
+		3CE0C1D81E17F6A500723656 /* CreateNewTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateNewTableViewController.xib; sourceTree = "<group>"; };
+		3CEC6AAB1E7AECFE00F961E2 /* AddDataTestViewControllerExtensionForTutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataTestViewControllerExtensionForTutorial.swift; sourceTree = "<group>"; };
+		3CEC6AAE1E7AF76800F961E2 /* LeftSideMenuViewControllerExtensionForTutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideMenuViewControllerExtensionForTutorial.swift; sourceTree = "<group>"; };
+		3CF5494F1DFDA543003DBF78 /* TopRightBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRightBorderButton.swift; sourceTree = "<group>"; };
+		3CF549511DFDA567003DBF78 /* TopRightBorderButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopRightBorderButton.xib; sourceTree = "<group>"; };
+		3CF549531DFDAAE5003DBF78 /* TopRightBorderLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopRightBorderLabel.xib; sourceTree = "<group>"; };
+		3CF549551DFDAB32003DBF78 /* TopRightBorderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopRightBorderLabel.swift; sourceTree = "<group>"; };
+		72F6640BF182DF0D15408EC7 /* Pods-TimeTableForICU-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTableForICU-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeTableForICU-iosTests/Pods-TimeTableForICU-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF323E39BAB84613AF1DCBE /* Pods-TimeTableForICU-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTableForICU-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeTableForICU-iosTests/Pods-TimeTableForICU-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B90F96629BC90DEE4F008AF /* Pods-TimeTableForICU-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTableForICU-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeTableForICU-iosUITests/Pods-TimeTableForICU-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B92868A3F4FC68A886F888 /* Pods-TimeTableForICU-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTableForICU-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeTableForICU-ios/Pods-TimeTableForICU-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F29DAE24A46616DADE7E20EA /* Pods_TimeTableForICU_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeTableForICU_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFA056C8E8E6AC1303E5648 /* Pods-TimeTableForICU-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTableForICU-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeTableForICU-ios/Pods-TimeTableForICU-ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4352C91DC5876300ADC5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA8C6211604802DC0CC222A /* Pods_TimeTableForICU_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4352DD1DC5876400ADC5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CEAEF480DE6586F653CFC0 /* Pods_TimeTableForICU_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4352E81DC5876400ADC5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A466B4086846DC18D10F1CF7 /* Pods_TimeTableForICU_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D531B00AE3C6DEF2C919D38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1B92868A3F4FC68A886F888 /* Pods-TimeTableForICU-ios.debug.xcconfig */,
+				FCFA056C8E8E6AC1303E5648 /* Pods-TimeTableForICU-ios.release.xcconfig */,
+				72F6640BF182DF0D15408EC7 /* Pods-TimeTableForICU-iosTests.debug.xcconfig */,
+				9AF323E39BAB84613AF1DCBE /* Pods-TimeTableForICU-iosTests.release.xcconfig */,
+				9B90F96629BC90DEE4F008AF /* Pods-TimeTableForICU-iosUITests.debug.xcconfig */,
+				2602EE1DB36D1BB1FA068484 /* Pods-TimeTableForICU-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C09003A1E1A232F00D0CB83 /* AddDataTest */ = {
+			isa = PBXGroup;
+			children = (
+				3C09003F1E1A238900D0CB83 /* AddDataTestViewController.swift */,
+				3CEC6AAB1E7AECFE00F961E2 /* AddDataTestViewControllerExtensionForTutorial.swift */,
+				3C0900411E1A239600D0CB83 /* AddDataTestViewController.storyboard */,
+				3C0900431E1A254800D0CB83 /* AddDataTestTableCustomCell.swift */,
+				3C0900451E1A320400D0CB83 /* AddDataTestTableController.swift */,
+				3CAFA3521E1A8AE8008A1C3C /* ColorChooserView.swift */,
+				3CAFA3541E1A8AF3008A1C3C /* ColorChooserView.xib */,
+			);
+			name = AddDataTest;
+			sourceTree = "<group>";
+		};
+		3C0DA7741E24A49D00DCAB2B /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3C0DA76E1E24717C00DCAB2B /* LeftSideMenuViewController.storyboard */,
+				3C0DA7751E24A91500DCAB2B /* LeftSideMenuViewController.swift */,
+				3CEC6AAE1E7AF76800F961E2 /* LeftSideMenuViewControllerExtensionForTutorial.swift */,
+				3C82CB3B1E2B3F2100CBD0B7 /* LeftSideMenuTableCell.swift */,
+				3C82CB3D1E2B3F9600CBD0B7 /* LeftSideMenuTableController.swift */,
+				3C0DA7721E24A2FC00DCAB2B /* ExSlideMenuController.swift */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		3C1F2D431E21D5AB001BDEA6 /* ModifyData */ = {
+			isa = PBXGroup;
+			children = (
+				3C1F2D441E21D5F2001BDEA6 /* ModifyDataViewController.swift */,
+				3C1F2D451E21D5F2001BDEA6 /* ModifyDataViewController.xib */,
+			);
+			name = ModifyData;
+			sourceTree = "<group>";
+		};
+		3C4352C31DC5876300ADC5B5 = {
+			isa = PBXGroup;
+			children = (
+				3C611A481E70027E0008D677 /* DB_for_timetable_15.db */,
+				3C0C3A841E7B0CD900902DCE /* userPolicy.html */,
+				3CB7BCB01E2BAC250099DC46 /* TimeTableForICU-Bridging-Header.h */,
+				3C5D247C1E1B647D004C1A78 /* DB_for_timetable_14.db */,
+				3C4352CE1DC5876300ADC5B5 /* TimeTableForICU-ios */,
+				3C4352E31DC5876400ADC5B5 /* TimeTableForICU-iosTests */,
+				3C4352EE1DC5876400ADC5B5 /* TimeTableForICU-iosUITests */,
+				3C4352CD1DC5876300ADC5B5 /* Products */,
+				0D531B00AE3C6DEF2C919D38 /* Pods */,
+				77EB8EE46A5221F6C9A722D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C4352CD1DC5876300ADC5B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4352CC1DC5876300ADC5B5 /* TimeTableForICU-ios.app */,
+				3C4352E01DC5876400ADC5B5 /* TimeTableForICU-iosTests.xctest */,
+				3C4352EB1DC5876400ADC5B5 /* TimeTableForICU-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4352CE1DC5876300ADC5B5 /* TimeTableForICU-ios */ = {
+			isa = PBXGroup;
+			children = (
+				3C24DCEB1E78DFEB007FD7B7 /* TimeTableForICU-ios.entitlements */,
+				3C9692ED1E6ACA4600DE58FF /* UserPolicy */,
+				3C82CB3F1E2B9D8000CBD0B7 /* ScheduleList */,
+				3C0DA7741E24A49D00DCAB2B /* SlideMenu */,
+				3C1F2D431E21D5AB001BDEA6 /* ModifyData */,
+				3CE0C1CE1E178CA400723656 /* TableSettings */,
+				3CCA5D681DF53D870097AB8B /* ClassInfo */,
+				3C09003A1E1A232F00D0CB83 /* AddDataTest */,
+				3C99C2B41DC58A1D00DA1D11 /* AddData */,
+				3C99C2B31DC5899D00DA1D11 /* MainView */,
+				3C99C2B21DC5897F00DA1D11 /* Database */,
+				3C99C2B11DC5897200DA1D11 /* Entities */,
+				3C99C2AF1DC5892C00DA1D11 /* CustomView */,
+				3C99C2AE1DC5891E00DA1D11 /* Util */,
+				3C4352CF1DC5876300ADC5B5 /* AppDelegate.swift */,
+				3C4352D61DC5876300ADC5B5 /* Assets.xcassets */,
+				3C4352D81DC5876300ADC5B5 /* LaunchScreen.storyboard */,
+				3C4352DB1DC5876300ADC5B5 /* Info.plist */,
+				3C24DCE91E78C82F007FD7B7 /* Images.xcassets */,
+			);
+			path = "TimeTableForICU-ios";
+			sourceTree = "<group>";
+		};
+		3C4352E31DC5876400ADC5B5 /* TimeTableForICU-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C4352E41DC5876400ADC5B5 /* TimeTableForICU_iosTests.swift */,
+				3C4352E61DC5876400ADC5B5 /* Info.plist */,
+			);
+			path = "TimeTableForICU-iosTests";
+			sourceTree = "<group>";
+		};
+		3C4352EE1DC5876400ADC5B5 /* TimeTableForICU-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C4352EF1DC5876400ADC5B5 /* TimeTableForICU_iosUITests.swift */,
+				3C4352F11DC5876400ADC5B5 /* Info.plist */,
+			);
+			path = "TimeTableForICU-iosUITests";
+			sourceTree = "<group>";
+		};
+		3C7DF2221E1D14B000EEBF38 /* ViewsForTable */ = {
+			isa = PBXGroup;
+			children = (
+				3CD0CF1E1E1BD54D000D6EAF /* ClassInfoTableHeaderView.swift */,
+				3CD0CF201E1BD567000D6EAF /* ClassInfoTableHeaderView.xib */,
+				3CD6E8911E1B28200086C804 /* ClassInfoTableScheduleCell.swift */,
+				3CD6E8951E1B3D900086C804 /* ClassInfoTableScheduleCell.xib */,
+				3CD6E8931E1B3D7A0086C804 /* ClassInfoTableMemoCell.swift */,
+				3CD6E8971E1B3DA20086C804 /* ClassInfoTableMemoCell.xib */,
+			);
+			name = ViewsForTable;
+			sourceTree = "<group>";
+		};
+		3C82CB3F1E2B9D8000CBD0B7 /* ScheduleList */ = {
+			isa = PBXGroup;
+			children = (
+				3C82CB401E2B9D9E00CBD0B7 /* ScheduleListViewController.swift */,
+				3C82CB421E2B9DB100CBD0B7 /* ScheduleListViewController.storyboard */,
+				3C0BA8511E3CD65800A271E0 /* ScheduleListTableController.swift */,
+				3C7AB4751E69767D0045AC1C /* ScheduleListTableCell.swift */,
+			);
+			name = ScheduleList;
+			sourceTree = "<group>";
+		};
+		3C9692ED1E6ACA4600DE58FF /* UserPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				3C9692F01E6ACAA800DE58FF /* UserPolicyViewController.swift */,
+				3C9692F21E6ACABE00DE58FF /* UserPolicyViewController.storyboard */,
+			);
+			name = UserPolicy;
+			sourceTree = "<group>";
+		};
+		3C99C2AE1DC5891E00DA1D11 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3CDC62481E02F99A00924A15 /* Enums.swift */,
+				3C0C3A781E7B0A5B00902DCE /* extensions.swift */,
+				3C6565231DCCC6C100878987 /* Constants.swift */,
+				3CDF52BE1DEC8034005FAAB7 /* DevideScheduleString.swift */,
+				3CD9A4D61E0D4E290015645A /* UserDefaultManager.swift */,
+				3CBF5CB81E2063AD000AE588 /* CustomDateFormatter.swift */,
+				3CD6A6381E25F5FA00888EEF /* CameraAndFileIOUtils.swift */,
+				3CB7BCB11E2BADEF0099DC46 /* GAUtility.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		3C99C2AF1DC5892C00DA1D11 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF5494F1DFDA543003DBF78 /* TopRightBorderButton.swift */,
+				3CF549511DFDA567003DBF78 /* TopRightBorderButton.xib */,
+				3CF549531DFDAAE5003DBF78 /* TopRightBorderLabel.xib */,
+				3CF549551DFDAB32003DBF78 /* TopRightBorderLabel.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		3C99C2B11DC5897200DA1D11 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3CA12E211DEFB69B00E6BA0B /* TableDataEntity.swift */,
+				3CD9A4D41E0CFD740015645A /* TableListDataEntity.swift */,
+				3C0C3A821E7B0BEC00902DCE /* SyllabusEntity.swift */,
+				3C0900471E1A3E0C00D0CB83 /* AddDataEntity.swift */,
+				3C5D247E1E1B658A004C1A78 /* DataTableEntity.swift */,
+				3CD0CF221E1BDE57000D6EAF /* ScheduleDataEntity.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		3C99C2B21DC5897F00DA1D11 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB2EE41DF1252A00EC7562 /* Managers */,
+				3CAB2EDC1DF1071000EC7562 /* DataBaseManagerUpperClass.swift */,
+				3C0C3A761E7B09E700902DCE /* DatabaseManager.swift */,
+				3CAB2EE21DF122C000EC7562 /* ProtocolForEachDBm.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		3C99C2B31DC5899D00DA1D11 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				3C4352D11DC5876300ADC5B5 /* ViewController.swift */,
+				3C75313F1E7AC75A00447F5D /* ViewControllerExtensionForTutorial.swift */,
+				3C4352D31DC5876300ADC5B5 /* Main.storyboard */,
+				3C99DD241DFA4A8800792367 /* PeriodView.swift */,
+				3C99DD261DFA4AA300792367 /* PeriodView.xib */,
+				3C041BD21DFF0530001CB15C /* TableColumnView.xib */,
+				3C041BD41DFF0539001CB15C /* TableColumnView.swift */,
+				3C389BB61E00DE780082418B /* CustomTableView.swift */,
+				3C389BB81E00DE840082418B /* CustomTableView.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		3C99C2B41DC58A1D00DA1D11 /* AddData */ = {
+			isa = PBXGroup;
+			children = (
+				3C99C2B51DC58A3A00DA1D11 /* AddDataViewController.swift */,
+				3C3AF04B1DC5A3A800C7C6F3 /* AddDataViewController.storyboard */,
+				3C78412A1DE7DE1E0020EF89 /* CollectionCustomCell.swift */,
+				3C78412C1DE7DFDF0020EF89 /* DateCollectionController.swift */,
+				3C5BE8431E0E63640046C522 /* AddDataHeaderView.swift */,
+				3C5BE8441E0E63640046C522 /* AddDataHeaderView.xib */,
+				3C5BE8491E0E70090046C522 /* AddDataFooterView.swift */,
+				3C4E6B651E128FED0088ED86 /* ColorChooserViewCon.swift */,
+				3C4E6B661E128FED0088ED86 /* ColorChooserViewCon.xib */,
+				3C8398EE1E176A250061838B /* CircleView.swift */,
+			);
+			name = AddData;
+			sourceTree = "<group>";
+		};
+		3CAB2EE41DF1252A00EC7562 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB2EDE1DF10F8300EC7562 /* DataBaseTableManager.swift */,
+				3CAB2EE01DF119B300EC7562 /* DataBaseSyllabusManager.swift */,
+				3CD9A4D21E0CFA1A0015645A /* DataBaseTableListManager.swift */,
+				3C5D24761E1B5DF0004C1A78 /* DataBaseDataTableManager.swift */,
+				3C5D247A1E1B6197004C1A78 /* DataBaseScheduleTableManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		3CCA5D681DF53D870097AB8B /* ClassInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3C7DF2221E1D14B000EEBF38 /* ViewsForTable */,
+				3CCA5D691DF53DD90097AB8B /* ClassInfoViewController.swift */,
+				3CC7663B1E2523A1004A0975 /* ClassInfoViewControllerCameraExtension.swift */,
+				3CCA5D6B1DF53DF30097AB8B /* ClassInfoViewController.storyboard */,
+				3CD6E8991E1B41890086C804 /* ClassInfoTableController.swift */,
+				3C7DF2231E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.swift */,
+				3C7DF2241E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.xib */,
+				3C27A5521E1E811D00E8F45B /* ClassInfoAddDataViewController.xib */,
+				3C27A5541E1EA93900E8F45B /* ClassInfoAddDataViewController.swift */,
+			);
+			name = ClassInfo;
+			sourceTree = "<group>";
+		};
+		3CE0C1CE1E178CA400723656 /* TableSettings */ = {
+			isa = PBXGroup;
+			children = (
+				3CE0C1CF1E178DA300723656 /* TableSettingsViewController.swift */,
+				3CE0C1D11E178DB400723656 /* TableSettingsViewController.storyboard */,
+				3CE0C1D31E17944700723656 /* TableSettingsTableController.swift */,
+				3CE0C1D51E1795E000723656 /* TableCustomCell.swift */,
+				3CE0C1D71E17F6A500723656 /* CreateNewTableViewController.swift */,
+				3CE0C1D81E17F6A500723656 /* CreateNewTableViewController.xib */,
+			);
+			name = TableSettings;
+			sourceTree = "<group>";
+		};
+		77EB8EE46A5221F6C9A722D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39416804A74C4C5971C42C45 /* Pods_TimeTableForICU_ios.framework */,
+				F29DAE24A46616DADE7E20EA /* Pods_TimeTableForICU_iosTests.framework */,
+				345AE6A3EA26FDA3502421E9 /* Pods_TimeTableForICU_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4352CB1DC5876300ADC5B5 /* TimeTableForICU-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4352F41DC5876400ADC5B5 /* Build configuration list for PBXNativeTarget "TimeTableForICU-ios" */;
+			buildPhases = (
+				8C1CBEFEB7614B1045261587 /* [CP] Check Pods Manifest.lock */,
+				3C4352C81DC5876300ADC5B5 /* Sources */,
+				3C4352C91DC5876300ADC5B5 /* Frameworks */,
+				3C4352CA1DC5876300ADC5B5 /* Resources */,
+				535A3D32368519F87418874D /* [CP] Embed Pods Frameworks */,
+				DB7E62D0B98C6B646C00DD11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimeTableForICU-ios";
+			productName = "TimeTableForICU-ios";
+			productReference = 3C4352CC1DC5876300ADC5B5 /* TimeTableForICU-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C4352DF1DC5876400ADC5B5 /* TimeTableForICU-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4352F71DC5876400ADC5B5 /* Build configuration list for PBXNativeTarget "TimeTableForICU-iosTests" */;
+			buildPhases = (
+				1ED168E2E8930BD18616A0AC /* [CP] Check Pods Manifest.lock */,
+				3C4352DC1DC5876400ADC5B5 /* Sources */,
+				3C4352DD1DC5876400ADC5B5 /* Frameworks */,
+				3C4352DE1DC5876400ADC5B5 /* Resources */,
+				727885A9919E78B0198FE9E1 /* [CP] Embed Pods Frameworks */,
+				EB433CEA843E0C41CE45BE70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C4352E21DC5876400ADC5B5 /* PBXTargetDependency */,
+			);
+			name = "TimeTableForICU-iosTests";
+			productName = "TimeTableForICU-iosTests";
+			productReference = 3C4352E01DC5876400ADC5B5 /* TimeTableForICU-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C4352EA1DC5876400ADC5B5 /* TimeTableForICU-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4352FA1DC5876400ADC5B5 /* Build configuration list for PBXNativeTarget "TimeTableForICU-iosUITests" */;
+			buildPhases = (
+				557A63CBD1908D856AECF7FB /* [CP] Check Pods Manifest.lock */,
+				3C4352E71DC5876400ADC5B5 /* Sources */,
+				3C4352E81DC5876400ADC5B5 /* Frameworks */,
+				3C4352E91DC5876400ADC5B5 /* Resources */,
+				FB654F258A7BAD8847D9B91C /* [CP] Embed Pods Frameworks */,
+				6C216F7425BEF8EBF0E73C05 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C4352ED1DC5876400ADC5B5 /* PBXTargetDependency */,
+			);
+			name = "TimeTableForICU-iosUITests";
+			productName = "TimeTableForICU-iosUITests";
+			productReference = 3C4352EB1DC5876400ADC5B5 /* TimeTableForICU-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4352C41DC5876300ADC5B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					AddDataViewController,
+				);
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "彌平千葉";
+				TargetAttributes = {
+					3C4352CB1DC5876300ADC5B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					3C4352DF1DC5876400ADC5B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C4352CB1DC5876300ADC5B5;
+					};
+					3C4352EA1DC5876400ADC5B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C4352CB1DC5876300ADC5B5;
+					};
+				};
+			};
+			buildConfigurationList = 3C4352C71DC5876300ADC5B5 /* Build configuration list for PBXProject "TimeTableForICU-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4352C31DC5876300ADC5B5;
+			productRefGroup = 3C4352CD1DC5876300ADC5B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4352CB1DC5876300ADC5B5 /* TimeTableForICU-ios */,
+				3C4352DF1DC5876400ADC5B5 /* TimeTableForICU-iosTests */,
+				3C4352EA1DC5876400ADC5B5 /* TimeTableForICU-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4352CA1DC5876300ADC5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C611A491E70027E0008D677 /* DB_for_timetable_15.db in Resources */,
+				3C5D247D1E1B647D004C1A78 /* DB_for_timetable_14.db in Resources */,
+				3C5BE8461E0E63640046C522 /* AddDataHeaderView.xib in Resources */,
+				3CF549541DFDAAE5003DBF78 /* TopRightBorderLabel.xib in Resources */,
+				3C82CB431E2B9DB100CBD0B7 /* ScheduleListViewController.storyboard in Resources */,
+				3C1F2D471E21D5F2001BDEA6 /* ModifyDataViewController.xib in Resources */,
+				3CD6E8961E1B3D900086C804 /* ClassInfoTableScheduleCell.xib in Resources */,
+				3CD6E8981E1B3DA20086C804 /* ClassInfoTableMemoCell.xib in Resources */,
+				3CCA5D6C1DF53DF30097AB8B /* ClassInfoViewController.storyboard in Resources */,
+				3C3AF04C1DC5A3A800C7C6F3 /* AddDataViewController.storyboard in Resources */,
+				3CE0C1D21E178DB400723656 /* TableSettingsViewController.storyboard in Resources */,
+				3C9692F31E6ACABE00DE58FF /* UserPolicyViewController.storyboard in Resources */,
+				3C389BB91E00DE840082418B /* CustomTableView.xib in Resources */,
+				3C4352DA1DC5876300ADC5B5 /* LaunchScreen.storyboard in Resources */,
+				3CF549521DFDA567003DBF78 /* TopRightBorderButton.xib in Resources */,
+				3C0C3A851E7B0CD900902DCE /* userPolicy.html in Resources */,
+				3C4E6B681E128FED0088ED86 /* ColorChooserViewCon.xib in Resources */,
+				3C041BD31DFF0530001CB15C /* TableColumnView.xib in Resources */,
+				3C4352D71DC5876300ADC5B5 /* Assets.xcassets in Resources */,
+				3CE0C1DA1E17F6A500723656 /* CreateNewTableViewController.xib in Resources */,
+				3C7DF2261E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.xib in Resources */,
+				3C24DCEA1E78C82F007FD7B7 /* Images.xcassets in Resources */,
+				3C0900421E1A239600D0CB83 /* AddDataTestViewController.storyboard in Resources */,
+				3C99DD271DFA4AA300792367 /* PeriodView.xib in Resources */,
+				3C0DA76F1E24717C00DCAB2B /* LeftSideMenuViewController.storyboard in Resources */,
+				3CAFA3551E1A8AF3008A1C3C /* ColorChooserView.xib in Resources */,
+				3C27A5531E1E811D00E8F45B /* ClassInfoAddDataViewController.xib in Resources */,
+				3C4352D51DC5876300ADC5B5 /* Main.storyboard in Resources */,
+				3CD0CF211E1BD567000D6EAF /* ClassInfoTableHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4352DE1DC5876400ADC5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4352E91DC5876400ADC5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED168E2E8930BD18616A0AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		535A3D32368519F87418874D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeTableForICU-ios/Pods-TimeTableForICU-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557A63CBD1908D856AECF7FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C216F7425BEF8EBF0E73C05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeTableForICU-iosUITests/Pods-TimeTableForICU-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727885A9919E78B0198FE9E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeTableForICU-iosTests/Pods-TimeTableForICU-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1CBEFEB7614B1045261587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7E62D0B98C6B646C00DD11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeTableForICU-ios/Pods-TimeTableForICU-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB433CEA843E0C41CE45BE70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeTableForICU-iosTests/Pods-TimeTableForICU-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB654F258A7BAD8847D9B91C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeTableForICU-iosUITests/Pods-TimeTableForICU-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4352C81DC5876300ADC5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAB2EDD1DF1071100EC7562 /* DataBaseManagerUpperClass.swift in Sources */,
+				3C0BA8521E3CD65800A271E0 /* ScheduleListTableController.swift in Sources */,
+				3C0C3A771E7B09E700902DCE /* DatabaseManager.swift in Sources */,
+				3C82CB3C1E2B3F2100CBD0B7 /* LeftSideMenuTableCell.swift in Sources */,
+				3C82CB3E1E2B3F9600CBD0B7 /* LeftSideMenuTableController.swift in Sources */,
+				3C4E6B671E128FED0088ED86 /* ColorChooserViewCon.swift in Sources */,
+				3C0DA7761E24A91500DCAB2B /* LeftSideMenuViewController.swift in Sources */,
+				3C0900401E1A238900D0CB83 /* AddDataTestViewController.swift in Sources */,
+				3C99DD251DFA4A8800792367 /* PeriodView.swift in Sources */,
+				3C1F2D461E21D5F2001BDEA6 /* ModifyDataViewController.swift in Sources */,
+				3CAB2EE11DF119B300EC7562 /* DataBaseSyllabusManager.swift in Sources */,
+				3CF549561DFDAB32003DBF78 /* TopRightBorderLabel.swift in Sources */,
+				3C5BE84A1E0E70090046C522 /* AddDataFooterView.swift in Sources */,
+				3CE0C1D91E17F6A500723656 /* CreateNewTableViewController.swift in Sources */,
+				3C4352D21DC5876300ADC5B5 /* ViewController.swift in Sources */,
+				3CD9A4D31E0CFA1A0015645A /* DataBaseTableListManager.swift in Sources */,
+				3CE0C1D01E178DA300723656 /* TableSettingsViewController.swift in Sources */,
+				3C5D24771E1B5DF0004C1A78 /* DataBaseDataTableManager.swift in Sources */,
+				3C78412B1DE7DE1E0020EF89 /* CollectionCustomCell.swift in Sources */,
+				3C78412D1DE7DFDF0020EF89 /* DateCollectionController.swift in Sources */,
+				3C0C3A791E7B0A5B00902DCE /* extensions.swift in Sources */,
+				3C041BD51DFF0539001CB15C /* TableColumnView.swift in Sources */,
+				3C389BB71E00DE780082418B /* CustomTableView.swift in Sources */,
+				3C0DA7731E24A2FC00DCAB2B /* ExSlideMenuController.swift in Sources */,
+				3CD9A4D51E0CFD740015645A /* TableListDataEntity.swift in Sources */,
+				3CAFA3531E1A8AE8008A1C3C /* ColorChooserView.swift in Sources */,
+				3CDC62491E02F99A00924A15 /* Enums.swift in Sources */,
+				3C4352D01DC5876300ADC5B5 /* AppDelegate.swift in Sources */,
+				3C5D247B1E1B6197004C1A78 /* DataBaseScheduleTableManager.swift in Sources */,
+				3CCA5D6A1DF53DD90097AB8B /* ClassInfoViewController.swift in Sources */,
+				3CD6E8921E1B28200086C804 /* ClassInfoTableScheduleCell.swift in Sources */,
+				3C0900441E1A254800D0CB83 /* AddDataTestTableCustomCell.swift in Sources */,
+				3CEC6AAC1E7AECFE00F961E2 /* AddDataTestViewControllerExtensionForTutorial.swift in Sources */,
+				3CBF5CB91E2063AD000AE588 /* CustomDateFormatter.swift in Sources */,
+				3C0900481E1A3E0C00D0CB83 /* AddDataEntity.swift in Sources */,
+				3C8398EF1E176A250061838B /* CircleView.swift in Sources */,
+				3C9692F11E6ACAA800DE58FF /* UserPolicyViewController.swift in Sources */,
+				3CE0C1D61E1795E000723656 /* TableCustomCell.swift in Sources */,
+				3C5BE8451E0E63640046C522 /* AddDataHeaderView.swift in Sources */,
+				3C0900461E1A320400D0CB83 /* AddDataTestTableController.swift in Sources */,
+				3C6565241DCCC6C100878987 /* Constants.swift in Sources */,
+				3CC7663C1E2523A1004A0975 /* ClassInfoViewControllerCameraExtension.swift in Sources */,
+				3CD6A6391E25F5FA00888EEF /* CameraAndFileIOUtils.swift in Sources */,
+				3CE0C1D41E17944700723656 /* TableSettingsTableController.swift in Sources */,
+				3CEC6AAF1E7AF76800F961E2 /* LeftSideMenuViewControllerExtensionForTutorial.swift in Sources */,
+				3CAB2EDF1DF10F8300EC7562 /* DataBaseTableManager.swift in Sources */,
+				3CA12E221DEFB69B00E6BA0B /* TableDataEntity.swift in Sources */,
+				3CF549501DFDA543003DBF78 /* TopRightBorderButton.swift in Sources */,
+				3C27A5551E1EA93900E8F45B /* ClassInfoAddDataViewController.swift in Sources */,
+				3CD0CF231E1BDE57000D6EAF /* ScheduleDataEntity.swift in Sources */,
+				3C7DF2251E1D153D00EEBF38 /* ClassInfoAddScheduleViewController.swift in Sources */,
+				3C7AB4761E69767D0045AC1C /* ScheduleListTableCell.swift in Sources */,
+				3CB7BCB21E2BADEF0099DC46 /* GAUtility.swift in Sources */,
+				3C7531401E7AC75A00447F5D /* ViewControllerExtensionForTutorial.swift in Sources */,
+				3C99C2B71DC58A3A00DA1D11 /* AddDataViewController.swift in Sources */,
+				3CD9A4D71E0D4E290015645A /* UserDefaultManager.swift in Sources */,
+				3C5D247F1E1B658A004C1A78 /* DataTableEntity.swift in Sources */,
+				3CDF52BF1DEC8034005FAAB7 /* DevideScheduleString.swift in Sources */,
+				3CAB2EE31DF122C000EC7562 /* ProtocolForEachDBm.swift in Sources */,
+				3C0C3A831E7B0BEC00902DCE /* SyllabusEntity.swift in Sources */,
+				3CD0CF1F1E1BD54D000D6EAF /* ClassInfoTableHeaderView.swift in Sources */,
+				3C82CB411E2B9D9E00CBD0B7 /* ScheduleListViewController.swift in Sources */,
+				3CD6E8941E1B3D7B0086C804 /* ClassInfoTableMemoCell.swift in Sources */,
+				3CD6E89A1E1B41890086C804 /* ClassInfoTableController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4352DC1DC5876400ADC5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4352E51DC5876400ADC5B5 /* TimeTableForICU_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4352E71DC5876400ADC5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4352F01DC5876400ADC5B5 /* TimeTableForICU_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C4352E21DC5876400ADC5B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C4352CB1DC5876300ADC5B5 /* TimeTableForICU-ios */;
+			targetProxy = 3C4352E11DC5876400ADC5B5 /* PBXContainerItemProxy */;
+		};
+		3C4352ED1DC5876400ADC5B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C4352CB1DC5876300ADC5B5 /* TimeTableForICU-ios */;
+			targetProxy = 3C4352EC1DC5876400ADC5B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C4352D31DC5876300ADC5B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4352D41DC5876300ADC5B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4352D81DC5876300ADC5B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4352D91DC5876300ADC5B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C4352F21DC5876400ADC5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C4352F31DC5876400ADC5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C4352F51DC5876400ADC5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B92868A3F4FC68A886F888 /* Pods-TimeTableForICU-ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "TimeTableForICU-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.y.TimeTableForICU-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeTableForICU-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C4352F61DC5876400ADC5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFA056C8E8E6AC1303E5648 /* Pods-TimeTableForICU-ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "TimeTableForICU-ios/TimeTableForICU-ios.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "TimeTableForICU-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.y.TimeTableForICU-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeTableForICU-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3C4352F81DC5876400ADC5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F6640BF182DF0D15408EC7 /* Pods-TimeTableForICU-iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TimeTableForICU-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.TimeTableForICU-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTableForICU-ios.app/TimeTableForICU-ios";
+			};
+			name = Debug;
+		};
+		3C4352F91DC5876400ADC5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF323E39BAB84613AF1DCBE /* Pods-TimeTableForICU-iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TimeTableForICU-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.TimeTableForICU-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTableForICU-ios.app/TimeTableForICU-ios";
+			};
+			name = Release;
+		};
+		3C4352FB1DC5876400ADC5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B90F96629BC90DEE4F008AF /* Pods-TimeTableForICU-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "TimeTableForICU-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.TimeTableForICU-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TimeTableForICU-ios";
+			};
+			name = Debug;
+		};
+		3C4352FC1DC5876400ADC5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2602EE1DB36D1BB1FA068484 /* Pods-TimeTableForICU-iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "TimeTableForICU-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.TimeTableForICU-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TimeTableForICU-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4352C71DC5876300ADC5B5 /* Build configuration list for PBXProject "TimeTableForICU-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4352F21DC5876400ADC5B5 /* Debug */,
+				3C4352F31DC5876400ADC5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4352F41DC5876400ADC5B5 /* Build configuration list for PBXNativeTarget "TimeTableForICU-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4352F51DC5876400ADC5B5 /* Debug */,
+				3C4352F61DC5876400ADC5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4352F71DC5876400ADC5B5 /* Build configuration list for PBXNativeTarget "TimeTableForICU-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4352F81DC5876400ADC5B5 /* Debug */,
+				3C4352F91DC5876400ADC5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4352FA1DC5876400ADC5B5 /* Build configuration list for PBXNativeTarget "TimeTableForICU-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4352FB1DC5876400ADC5B5 /* Debug */,
+				3C4352FC1DC5876400ADC5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C4352C41DC5876300ADC5B5 /* Project object */;
+}

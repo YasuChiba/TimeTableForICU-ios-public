@@ -1,0 +1,36 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+#Uncomment this line if you're using Swift
+use_frameworks!
+
+
+target 'TimeTableForICU-ios' do
+	pod 'FMDB'
+	#pod 'RxSwift',    '~> 3.0'
+    	#pod 'RxCocoa',    '~> 3.0'
+	pod 'ActionSheetPicker-3.0', '~> 2.2.0'
+	#pod 'BButton'
+	pod 'Material', '~> 2.0'
+	pod 'TJExtensions', '~> 0.2'end
+	pod 'SnapKit', '~> 3.0.2'
+	pod 'Hue'
+	pod 'PopupDialog', '~> 0.5'
+	pod 'Presentr'
+	pod 'SlideMenuControllerSwift'
+	pod "TTGSnackbar"
+	pod 'DropDown'
+	pod 'Google/Analytics'
+	pod 'Firebase/Core'
+	pod 'SSImageBrowser', :git => 'https://github.com/CodeEagle/SSImageBrowser.git', :branch => 'master'
+	pod 'Instructions', :git => 'https://github.com/ephread/Instructions.git', :branch => 'master'
+
+target 'TimeTableForICU-iosTests' do
+
+	#pod 'RxBlocking', '~> 3.0'
+    	#pod 'RxTest',     '~> 3.0'
+end
+
+target 'TimeTableForICU-iosUITests' do
+
+end
+

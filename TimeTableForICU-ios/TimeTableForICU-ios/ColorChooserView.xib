@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ColorChooserView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="view1" destination="m85-NI-vuI" id="idU-zg-PkY"/>
+                <outlet property="view10" destination="LMR-cC-1sy" id="oe1-Wt-K6y"/>
+                <outlet property="view11" destination="GGh-jv-71W" id="a6Y-Zl-hro"/>
+                <outlet property="view12" destination="Cb7-SD-fIq" id="H7V-0h-5aa"/>
+                <outlet property="view2" destination="6pi-pz-tng" id="O3j-Xk-eHA"/>
+                <outlet property="view3" destination="ETz-Vu-FRG" id="gf7-oe-i8D"/>
+                <outlet property="view4" destination="x4q-w6-tdE" id="zS2-uK-WGR"/>
+                <outlet property="view5" destination="waQ-Kn-c8E" id="u8d-om-6os"/>
+                <outlet property="view6" destination="kI1-BA-wUL" id="wy9-tL-3O4"/>
+                <outlet property="view7" destination="5H0-vz-i9u" id="DEv-Ed-MWg"/>
+                <outlet property="view8" destination="htJ-aR-hbN" id="0ku-3W-bg3"/>
+                <outlet property="view9" destination="PHq-MP-6SG" id="vde-Nf-Cpk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="493" height="316"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="e6K-SB-Dna">
+                    <rect key="frame" x="0.0" y="0.0" width="493" height="316"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="5iR-xV-MyY">
+                            <rect key="frame" x="0.0" y="0.0" width="493" height="150.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m85-NI-vuI" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="69.5" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6pi-pz-tng" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="84.5" y="0.0" width="70" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETz-Vu-FRG" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="169.5" y="0.0" width="69.5" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4q-w6-tdE" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="254" y="0.0" width="69.5" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHq-MP-6SG" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="338.5" y="0.0" width="70" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LMR-cC-1sy" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="423.5" y="0.0" width="69.5" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Lyu-BL-yJR">
+                            <rect key="frame" x="0.0" y="165.5" width="493" height="150.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="waQ-Kn-c8E" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="69.5" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kI1-BA-wUL" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="84.5" y="0.0" width="70" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5H0-vz-i9u" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="169.5" y="0.0" width="69.5" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="htJ-aR-hbN" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="254" y="0.0" width="69.5" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GGh-jv-71W" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="338.5" y="0.0" width="70" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cb7-SD-fIq" customClass="CircleView" customModule="TimeTableForICU_ios" customModuleProvider="target">
+                                    <rect key="frame" x="423.5" y="0.0" width="69.5" height="150.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="e6K-SB-Dna" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="61m-TN-y4p"/>
+                <constraint firstAttribute="trailing" secondItem="e6K-SB-Dna" secondAttribute="trailing" id="Bqb-K9-Wr0"/>
+                <constraint firstAttribute="bottom" secondItem="e6K-SB-Dna" secondAttribute="bottom" id="ojU-Vv-NdV"/>
+                <constraint firstItem="e6K-SB-Dna" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="s3e-6c-e8o"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="93.5" y="-97"/>
+        </view>
+    </objects>
+</document>

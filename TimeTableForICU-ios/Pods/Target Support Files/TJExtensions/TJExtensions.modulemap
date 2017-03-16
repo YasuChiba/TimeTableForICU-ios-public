@@ -1,0 +1,6 @@
+framework module TJExtensions {
+  umbrella header "TJExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

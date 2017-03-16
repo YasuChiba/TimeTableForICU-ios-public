@@ -1,0 +1,6 @@
+framework module TTGSnackbar {
+  umbrella header "TTGSnackbar-iOS9.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

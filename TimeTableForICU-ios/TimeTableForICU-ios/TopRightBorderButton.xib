@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopRightBorderButton" customModule="TimeTableForICU_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="URg-tB-Iqm" id="SI3-tU-NJK"/>
+                <outlet property="rightBorder" destination="Vuf-Er-Oai" id="ens-5x-Asj"/>
+                <outlet property="topBorder" destination="hlC-Y5-sG4" id="yRj-BL-jma"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URg-tB-Iqm">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vuf-Er-Oai">
+                    <rect key="frame" x="45.5" y="0.0" width="0.5" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="cVK-K9-LRv"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.12526311530000001" green="0.12526311530000001" blue="0.12526311530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlC-Y5-sG4">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="0.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="oh9-Ps-qhR"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.12526311530000001" green="0.12526311530000001" blue="0.12526311530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="URg-tB-Iqm" secondAttribute="trailing" id="5Wm-6U-aHy"/>
+                <constraint firstItem="URg-tB-Iqm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8xW-Qw-JHN"/>
+                <constraint firstItem="URg-tB-Iqm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F49-OE-wO7"/>
+                <constraint firstAttribute="trailing" secondItem="hlC-Y5-sG4" secondAttribute="trailing" id="QmO-UV-rso"/>
+                <constraint firstAttribute="bottom" secondItem="Vuf-Er-Oai" secondAttribute="bottom" id="TtK-Dd-H3N"/>
+                <constraint firstAttribute="trailing" secondItem="Vuf-Er-Oai" secondAttribute="trailing" id="b5F-7H-Gaa"/>
+                <constraint firstAttribute="bottom" secondItem="URg-tB-Iqm" secondAttribute="bottom" id="gmO-C2-MMY"/>
+                <constraint firstItem="hlC-Y5-sG4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="obB-GO-e96"/>
+                <constraint firstItem="hlC-Y5-sG4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qV3-HC-okq"/>
+                <constraint firstItem="Vuf-Er-Oai" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yn7-m4-M67"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="255" y="-117"/>
+        </view>
+    </objects>
+</document>

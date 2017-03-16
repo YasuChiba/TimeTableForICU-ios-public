@@ -1,0 +1,6 @@
+framework module PopupDialog {
+  umbrella header "PopupDialog-iOS10.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FF1188BC2D21AF76B23214CB66B4A7AD1652091A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C41DCA0401440EA82670CB58BD37A9EBE14CAE83" : 9223372036854775807,
+    "FF1188BC2D21AF76B23214CB66B4A7AD1652091A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FC5BF765-CF81-4B82-809B-A36E20149E6E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C41DCA0401440EA82670CB58BD37A9EBE14CAE83" : "TimeTableForICU-android\/",
+    "FF1188BC2D21AF76B23214CB66B4A7AD1652091A" : "TimeTableForICU-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TimeTableForICU-ios",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TimeTableForICU-ios\/TimeTableForICU-ios.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YasuChiba\/TimeTableForICU-android.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C41DCA0401440EA82670CB58BD37A9EBE14CAE83"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YasuChiba\/TimeTableForICU-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF1188BC2D21AF76B23214CB66B4A7AD1652091A"
+    }
+  ]
+}

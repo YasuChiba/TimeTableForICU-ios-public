@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopRightBorderLabel" customModule="TimeTableForICU_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="elG-H6-KzA" id="dBh-rj-fbh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="NGp-II-6QV">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elG-H6-KzA">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="29.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKp-rW-kDR">
+                    <rect key="frame" x="46" y="0.0" width="0.0" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="NbN-bx-cFM"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.12526311530000001" green="0.12526311530000001" blue="0.12526311530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXC-WR-YhD">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="Qpz-ab-k4p"/>
+                        <constraint firstAttribute="height" constant="0.5" id="apd-Wa-cWV"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.12526311530000001" green="0.12526311530000001" blue="0.12526311530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fXC-WR-YhD" secondAttribute="trailing" id="5q7-hH-xCP"/>
+                <constraint firstAttribute="bottom" secondItem="uKp-rW-kDR" secondAttribute="bottom" id="6G6-ig-HNH"/>
+                <constraint firstItem="uKp-rW-kDR" firstAttribute="top" secondItem="NGp-II-6QV" secondAttribute="top" id="HOz-id-iVi"/>
+                <constraint firstItem="fXC-WR-YhD" firstAttribute="top" secondItem="NGp-II-6QV" secondAttribute="top" id="KCk-xN-740"/>
+                <constraint firstItem="uKp-rW-kDR" firstAttribute="top" secondItem="NGp-II-6QV" secondAttribute="top" id="WYp-El-FQd"/>
+                <constraint firstItem="elG-H6-KzA" firstAttribute="leading" secondItem="NGp-II-6QV" secondAttribute="leading" id="Wzg-Tj-8bp"/>
+                <constraint firstItem="elG-H6-KzA" firstAttribute="top" secondItem="NGp-II-6QV" secondAttribute="top" id="ZCs-vf-6AJ"/>
+                <constraint firstAttribute="bottom" secondItem="elG-H6-KzA" secondAttribute="bottom" id="hv9-aw-MDO"/>
+                <constraint firstItem="fXC-WR-YhD" firstAttribute="leading" secondItem="NGp-II-6QV" secondAttribute="leading" id="kIZ-ww-eSw"/>
+                <constraint firstAttribute="trailing" secondItem="elG-H6-KzA" secondAttribute="trailing" id="vzq-v5-q5d"/>
+                <constraint firstAttribute="trailing" secondItem="uKp-rW-kDR" secondAttribute="trailing" id="yJa-qA-6ji"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="255" y="-117"/>
+        </view>
+    </objects>
+</document>
